@@ -1,0 +1,48 @@
+header {
+  background: rgb(120, 219, 226);
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  background-size: cover;
+  /*color: rgb(219, 237, 237); */
+  background: linear-gradient(bottom, rgba(219, 237, 237,1), rgba(219, 237, 237,.2));
+  background: -webkit-linear-gradient(bottom, rgba(219, 237, 237,1), rgba(219, 237, 237,.2));
+  background: -moz-linear-gradient(bottom, rgba(219, 237, 237,1), rgba(219, 237, 237,.2));
+  padding: 10px;
+}
+h1 {
+  color: black;
+  font: tahoma;
+  font-size: 50px;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+h2 {
+  color: pink;
+  font: tahoma;
+  text-align: center;
+}
+p{
+  font: tahoma;
+  font-size: 15px;
+  text-align: center;
+}
+a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+  color: pink;
+  text-align: center;
+}
+.about {
+  border-color: black;
+  border-width: 10px;
+  text-align: center;
+}
+@media (max-width: 500px) {
+ h1 {
+ font-size: 25px;
+ }
+}
