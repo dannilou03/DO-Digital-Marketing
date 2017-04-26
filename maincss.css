@@ -1,49 +1,140 @@
-header {
-  background: rgb(120, 219, 226);
-  font-family: 'Lobster', cursive;
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: #4c5053;
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(254, 220, 210, 1);
+    border-width: 1px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: #4c5053;
+    background-color: rgba(254, 220, 210, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: #4a62da;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: #4a62da;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #df744a;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #df744a;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #df744a;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #fedcd2;
+}
+
+.hero {
+    position:relative;
+    background:url('https://smarketingcloud.com/wp-content/uploads/2015/04/Flatlay-Desk-8.jpg')no-repeat;
+    background-size:100%;
+    display:block;
+    padding:0 !important;
+    margin: auto;
+    text-align: center;
+  }
+
+.hero_copy {
+  margin: 10%;
+  }
+
+.img {
+  height: 250px;
+}
+
+.about {
+  background-color: #bfd8d2;
+  margin: 50px, 10px, 50px, 10px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   text-align: center;
-  background-size: cover;
-  /*color: rgb(219, 237, 237); */
-  background: linear-gradient(bottom, rgba(219, 237, 237,1), rgba(219, 237, 237,.2));
-  background: -webkit-linear-gradient(bottom, rgba(219, 237, 237,1), rgba(219, 237, 237,.2));
-  background: -moz-linear-gradient(bottom, rgba(219, 237, 237,1), rgba(219, 237, 237,.2));
+  padding: 50px;
+  margin-top: 10px !important;
+}
+
+h1 {
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+  color: #ed8056;
+}
+
+p {
+  color: #4c5053;
+}
+
+h5 {
+  color: #4c5053;
+}
+
+.work {
+  color: #ed8056;
+  font-family: Charcoal, sans-serif;
+  margin: auto;
+}
+
+.caption {
+  text-align: center;
+  color: #ed8056;
+}
+
+.testimonials {
+  background-color:
+  color: #ed8056;
+  background-color: white;
+  margin: 50px, 10px, 50px, 10px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+
+ }
+
+ .logos {
+   background-color: #bfd8d2;
+   padding-top: 20px;
+   padding-bottom: 20px
+ }
+
+.footer {
+  background-color: #fedcd2;
+  color: #808080;
+  text-align: center;
+  padding: 50px;
+  }
+
+.follow__list__item {
+  color: #4c5053;
+  display:inline;
+}
+
+.footer__list__item {
+  display:inline;
+}
+
+.footer__copyright {
   padding: 10px;
 }
-h1 {
-  color: black;
-  font: tahoma;
-  font-size: 50px;
-}
-li {
-  display: inline;
-  padding: 0px 10px 0px 10px;
-}
-h2 {
-  color: pink;
-  font: tahoma;
-  text-align: center;
-}
-p{
-  font: tahoma;
-  font-size: 15px;
-  text-align: center;
-}
-a {
+
+.button {
+  background-color: #ed8056;
+  border: none;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.footer {
-  color: pink;
+  padding: 10px 25px;
+  margin-top: 10px;
   text-align: center;
-}
-.about {
-  border-color: black;
-  border-width: 10px;
-  text-align: center;
-}
-@media (max-width: 500px) {
- h1 {
- font-size: 25px;
- color: pink;
- }
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
 }
